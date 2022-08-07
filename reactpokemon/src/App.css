@@ -5,13 +5,13 @@
   display: flex;
   height: 650px;
   margin-top:200px;
-  border: rgba(255, 255, 255, 0.184) 1px solid;
 }
 .catalogo{
   height: inherit;
   width: 50%;
-  margin-right: px;
+  border: rgba(255, 255, 255, 0.241) 2px solid;
 }
+
 .catalogo>h2{
   margin: 20px;
   font-family: 'Londrina Shadow', cursive;
@@ -43,23 +43,103 @@
   font-size: 19px;
   letter-spacing: 2px;
 }
+
 .habilidades{
-  background-color: rgba(203, 222, 106, 0.092);
-  border: 22px solid rgba(222, 114, 115, 0.622);
+  background-color: rgba(162, 225, 240, 0.401);
+  border: 8px ridge rgba(16, 9, 9, 0.838);
+  box-shadow: 1px 1px 5px 10px rgba(239, 183, 16, 0.329);
   width: 50%;
   text-align: center;
 }
 
 img{
   margin-top: 20px;
-  padding:20px 80px ;
+  padding:20px 18px ;
+  border: solid black 2px;
   background-color: rgba(250, 235, 215, 0.205);
   border-radius: 30px;
+  margin-bottom:20px;
 }
-.habilidades>section{
+.quadrado-habilidades{
+  background:radial-gradient( rgba(255, 255, 255, 0.119),rgba(234, 227, 227, 0.227));
   font-family: 'Monofett', cursive;
+  padding-bottom: 10px;
+  border-bottom: double 2px rgba(255, 216, 118, 0.407);
+}
+.habilidades>.titulo{
+  background:radial-gradient( rgba(255, 255, 255, 0.119),rgba(234, 227, 227, 0.227));
+  border-top: double 2px rgba(255, 216, 118, 0.407);
+  font-family: 'Monofett', cursive;
+  /* font-family: 'Press Start 2P', cursive; */
+  color: rgba(255, 255, 255, 0.034);
+  font-size: 39px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(5, 5, 5, 0.801);
+  padding-bottom: 6px;
+  letter-spacing: 9px;
   
 }
+.quadrado-habilidades{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.quadrado-habilidades>div{
+  border: 2px ridge rgba(60, 60, 60, 0.352);
+  
+  padding: 4px 9px;
+  font-family: 'Londrina Shadow', cursive;
+  /* font-family: 'Inconsolata', monospace; */
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: rgba(0, 0, 0, 0.838);
+  /* background-color: rgba(222, 222, 222, 0.23) */
+}
+.powers{
+  
+  margin:20px 20px;
+}
+.powers>table{
+  border-collapse:initial;
+}
+.powers>table>tr{
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  padding-bottom: 30px;
+  border-bottom: 12px transparent solid;
+  /* border-spacing:0px 40px; */
+
+}
+.powers>table>tr>td{
+  width: 460px;
+  border: 1px rgba(0, 0, 0, 0.736) solid;
+  background-color: rgba(27, 26, 27, 0.216);
+  
+}
+.powers>table>tr>td>.hp{
+  width: 40px;
+  height: 15px;
+  background-color: rgba(0, 65, 206, 0.989);
+  
+}
+.powers>table>tr>td>.attack{
+  width: 100px;
+  height: 15px;
+  background-color:  rgb(224, 53, 53);
+}
+.powers>table>tr>td>.defense{
+  width: 300px;
+  height: 15px;
+  background-color:  rgb(88, 199, 48);
+ 
+}
+.powers>table>tr>td>.speed{
+  width: 460px;
+  height: 15px;
+  background-color: rgb(255, 237, 43) ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Londrina+Shadow&family=Raleway+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Raleway+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
