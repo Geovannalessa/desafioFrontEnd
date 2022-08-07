@@ -1,23 +1,68 @@
+//  METAS DO HTML. IMPORTAÇÕES
 import logo from './logo.svg';
 import './App.css';
+import Images from './components/Images';
 
+
+// o body
 function App() {
   return (
+    //TUDO FICA EM DENTRO DA DIV
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="catalogo">
+        <h2>POKEMONS</h2>
+        <section>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          <article className="nomes">
+            <a href='#'>Charmander</a>
+          </article>
+          
+        
+        </section>
+      </section>
+
+        <section className="habilidades">
+          <Images/>
+          <section>
+          Rattata
+          </section>
+          <section>
+            
+          </section>
+        </section>
+
+
+
+
     </div>
   );
 }

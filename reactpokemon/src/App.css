@@ -1,8 +1,69 @@
 .App {
+  background: radial-gradient(rgba(184, 253, 131, 0.499), rgba(255, 255, 255, 0.339)) ;
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  height: 650px;
+  margin-top:200px;
+  border: rgba(255, 255, 255, 0.184) 1px solid;
+}
+.catalogo{
+  height: inherit;
+  width: 50%;
+  margin-right: px;
+}
+.catalogo>h2{
+  margin: 20px;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+.catalogo>section{
+  background-color: rgba(119, 119, 119, 0.205);
+  border: 3px rgba(255, 212, 133, 0.708) double;
+
+  margin:0px 20px ;
+  padding: 20px;
+}
+.nomes{
+  padding: 6px 2px ;
+  margin-bottom: 5px;
+  border: 1px rgba(245, 222, 179, 0.002) solid;
+  
+}
+.nomes:hover{
+  background-color: rgba(240, 248, 255, 0.179);
+ 
+}
+.nomes>a{
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  color: rgba(0, 0, 0, 0.999);
+  font-weight:bold;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+.habilidades{
+  background-color: rgba(203, 222, 106, 0.092);
+  border: 22px solid rgba(222, 114, 115, 0.622);
+  width: 50%;
   text-align: center;
 }
 
-.App-logo {
+img{
+  margin-top: 20px;
+  padding:20px 80px ;
+  background-color: rgba(250, 235, 215, 0.205);
+  border-radius: 30px;
+}
+.habilidades>section{
+  font-family: 'Monofett', cursive;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Londrina+Shadow&family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +96,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
