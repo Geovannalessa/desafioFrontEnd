@@ -45,8 +45,11 @@ function App() {
           <article className="nomes">
             <a href='#'>Charmander</a>
           </article>
+          <article className="back_next">
           <button>BACK</button>
-          <button>NEXT</button>
+          <button className="next">NEXT</button>
+          </article>
+          
 
         </section>
       </section>
