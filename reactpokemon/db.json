@@ -1,0 +1,36 @@
+{
+    "pokemons":[],
+    "categories":[
+        
+            {
+                "id": 1,
+                "imagem":{} ,
+                "nome": "Bulbasaur",
+                "poderes": ["Grass", "Poison"],
+                "hp": 25,
+                "attack": 25,
+                "defense": 25,
+                "speed": 25
+            },
+            {
+                "id": 2,
+                "imagem": {},
+                "nome": "Ivysaur",
+                "poderes": ["Grass", "Poison"],
+                "hp": 35,
+                "attack": 35,
+                "defense": 35,
+                "speed": 35
+            },
+            {
+                "id": 3,
+                "imagem": "/venusaur.png",
+                "nome": "Venusaur",
+                "poderes": ["Grass", "Poison"],
+                "hp": 45,
+                "attack": 45,
+                "defense": 45,
+                "speed": 45
+            }       
+    ]
+}

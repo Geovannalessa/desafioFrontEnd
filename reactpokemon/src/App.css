@@ -6,7 +6,11 @@
   height: 650px;
   margin-top: 200px;
 }
-
+section>article{
+  padding: 6px 2px;
+  margin-bottom: 5px;
+  border: 1px rgba(245, 222, 179, 0.002) solid;
+}
 .catalogo {
   height: inherit;
   width: 50%;
@@ -28,13 +32,14 @@
 }
 
 .nomes {
-  padding: 6px 2px;
-  margin-bottom: 5px;
-  border: 1px rgba(245, 222, 179, 0.002) solid;
+  
 }
 
 .nomes:hover {
   background-color: rgba(240, 248, 255, 0.179);
+}
+.nomes>.Ivysaur:hover{
+  background-color: aqua;
 }
 
 .nomes>a {
