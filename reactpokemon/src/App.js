@@ -1,31 +1,29 @@
-// import './App.css';
-import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import Images from './components/Images';
-import Bulbasaur from './components/Bulbasaur';
+
+
+import Home from './pages/Home/Home';
+import Bulbasaur from './pages/Bulbasaur/Bulbasaur';
+import Ivysaur from './pages/Ivysaur/Ivysaur';
 
 // o body
 function App() {
   return (
     <div className="App">
       <section className="catalogo">
-        <h2>POKEMONS</h2>
+        <h2> <Link exact="true" to="/">POKEMONS</Link>
+        </h2>
         <section>
-        
-            <article className="nomes" >
-              <Link to="/bulbasaur">Bulbasaur</Link>
-              <Routes>
-                <Route path='/bulbasaur' element={Bulbasaur} />
-              </Routes>
-            </article>
-
-
-          <article className="nomes">
-            <a href='#'>Ivysaur</a>
+          <article className="nomes" >
+            <Link exact="true" to="/bulbasaur">Bulbasaur</Link>
           </article>
+
           <article className="nomes">
-            <a href='#'>Venusaur</a>
+            <Link exact="true" to="/ivysaur">Ivysaur</Link>
+          </article>
+
+          <article className="nomes">
+            <a href='http://localhost:3000/ivysaur'>Venusaur</a>
           </article>
           <article className="nomes">
             <a href='#'>Charmander</a>
@@ -54,50 +52,14 @@ function App() {
           </section>
         </section>
       </section>
-
-      <section className="habilidades">
-        <Images />
-        <section className="titulo">
-          Rattata
-        </section>
-        <section className="quadrado-habilidades">
-          <div>
-            grass
-          </div>
-          <div>
-            grass
-          </div>
-        </section>
-        <article className="powers">
-          <table>
-            <tr>
-              hp
-              <td>
-                <td className="hp"></td>
-              </td>
-            </tr>
-            <tr>
-              attack
-              <td>
-                <td className="attack"></td>
-              </td>
-            </tr>
-            <tr>
-              defense
-              <td>
-                <td className="defense"></td>
-              </td>
-            </tr>
-            <tr>
-              speed
-              <td>
-                <td className="speed"></td>
-              </td>
-            </tr>
-          </table>
-        </article>
-      </section>
+          <Routes>
+            <Route path='/' exact='true' element={<Home />}></Route>
+            <Route path='/bulbasaur' element={<Bulbasaur />}></Route>
+            <Route path='/ivysaur' element={<Ivysaur />}></Route>
+          </Routes>
+     
     </div>
+
   );
 }
 
