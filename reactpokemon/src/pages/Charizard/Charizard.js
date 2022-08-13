@@ -1,45 +1,43 @@
 import Images from './Images';
 import './Charizard.css'
- function Bulbasaur() {
+ function Charizard() {
     return (
       
-      <section className="habilidades">
+      <section className="habilidades6">
       <Images />
       <section className="titulo">
-        Bulbasaur
+      Charizard
       </section>
-      <section className="quadrado-habilidades">
+      <section className="quadrado-habilidades6">
         <div>
-          grass
+          fire
         </div>
-        <div>
-          grass
-        </div>
+        
       </section>
       <article className="powers">
         <table>
           <tr>
             hp
             <td>
-              <td className="hp"></td>
+              <td className="hp6"></td>
             </td>
           </tr>
           <tr>
             attack
             <td>
-              <td className="attack"></td>
+              <td className="attack6"></td>
             </td>
           </tr>
           <tr>
             defense
             <td>
-              <td className="defense"></td>
+              <td className="defense6"></td>
             </td>
           </tr>
           <tr>
             speed
             <td>
-              <td className="speed"></td>
+              <td className="speed6"></td>
             </td>
           </tr>
         </table>
@@ -47,6 +45,6 @@ import './Charizard.css'
     </section>
     );
   }
-  export default Bulbasaur;
+  export default Charizard;
   
   

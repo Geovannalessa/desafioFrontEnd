@@ -36,27 +36,27 @@
 }
 
 .powers>table>tr>td>.hp3 {
-  width: 140px;
+  width: 120px;
   height: 15px;
   background-color: rgba(0, 65, 206, 0.989);
 
 }
 
 .powers>table>tr>td>.attack3 {
-  width: 140px;
+  width: 120px;
   height: 15px;
   background-color: rgb(224, 53, 53);
 }
 
 .powers>table>tr>td>.defense3 {
-  width: 140px;
+  width: 120px;
   height: 15px;
   background-color: rgb(88, 199, 48);
 
 }
 
 .powers>table>tr>td>.speed3 {
-  width: 140px;
+  width: 120px;
   height: 15px;
   background-color: rgb(255, 237, 43);
 }

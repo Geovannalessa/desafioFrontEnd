@@ -1,6 +1,6 @@
 import Images from './Images';
 import './Venusaur.css'
- function Bulbasaur() {
+ function Venusaur() {
     return (
       
       <section className="habilidades3">
@@ -47,6 +47,6 @@ import './Venusaur.css'
     </section>
     );
   }
-  export default Bulbasaur;
+  export default Venusaur;
   
   

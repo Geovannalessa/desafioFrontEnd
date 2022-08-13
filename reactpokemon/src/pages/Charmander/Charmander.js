@@ -1,45 +1,43 @@
 import Images from './Images';
 import './Charmander.css'
- function Bulbasaur() {
+ function Charmander() {
     return (
       
-      <section className="habilidades">
+      <section className="habilidades4">
       <Images />
       <section className="titulo">
-        Bulbasaur
+       Charmander
       </section>
-      <section className="quadrado-habilidades">
+      <section className="quadrado-habilidades4">
         <div>
-          grass
+          fire
         </div>
-        <div>
-          grass
-        </div>
+        
       </section>
       <article className="powers">
         <table>
           <tr>
             hp
             <td>
-              <td className="hp"></td>
+              <td className="hp4"></td>
             </td>
           </tr>
           <tr>
             attack
             <td>
-              <td className="attack"></td>
+              <td className="attack4"></td>
             </td>
           </tr>
           <tr>
             defense
             <td>
-              <td className="defense"></td>
+              <td className="defense4"></td>
             </td>
           </tr>
           <tr>
             speed
             <td>
-              <td className="speed"></td>
+              <td className="speed4"></td>
             </td>
           </tr>
         </table>
@@ -47,6 +45,6 @@ import './Charmander.css'
     </section>
     );
   }
-  export default Bulbasaur;
+  export default Charmander;
   
   
