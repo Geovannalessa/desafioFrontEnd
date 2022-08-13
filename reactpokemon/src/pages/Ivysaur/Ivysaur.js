@@ -3,17 +3,17 @@ import './Ivysaur.css'
  function Bulbasaur() {
     return (
       
-      <section className="habilidades">
+      <section className="habilidades2">
       <Images />
       <section className="titulo">
-        Bulbasaur
+        Ivysaur
       </section>
-      <section className="quadrado-habilidades">
+      <section className="quadrado-habilidades2">
         <div>
           grass
         </div>
         <div>
-          grass
+          poison
         </div>
       </section>
       <article className="powers">
@@ -21,25 +21,25 @@ import './Ivysaur.css'
           <tr>
             hp
             <td>
-              <td className="hp"></td>
+              <td className="hp2"></td>
             </td>
           </tr>
           <tr>
             attack
             <td>
-              <td className="attack"></td>
+              <td className="attack2"></td>
             </td>
           </tr>
           <tr>
             defense
             <td>
-              <td className="defense"></td>
+              <td className="defense2"></td>
             </td>
           </tr>
           <tr>
             speed
             <td>
-              <td className="speed"></td>
+              <td className="speed2"></td>
             </td>
           </tr>
         </table>
