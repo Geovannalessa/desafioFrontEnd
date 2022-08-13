@@ -1,0 +1,45 @@
+
+.choose {
+    background: radial-gradient(rgba(37, 37, 37, 0.249),rgba(236, 232, 232, 0)) ;
+    border: 4px  rgba(204, 244, 103, 0.177) solid;
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choose>h2{
+    font-family: 'Londrina Shadow', cursive;
+    align-items: center;
+    font-size: 40px;
+    background: radial-gradient(rgba(241, 241, 241, 0.027),rgba(253, 253, 253, 0)) ;
+    padding: 30px;
+}
+.choose>h2{
+    border: rgb(0, 0, 0) double 4px;
+    animation-name: animacaoBorder;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes animacaoBorder{
+    0%{
+        border: 4px rgba(0, 0, 0, 0.807) double;
+    }
+    10%{
+        border: 4px  double rgba(170, 19, 19, 0.988);
+    }
+    30%{ 
+        border: 4px double rgba(96, 99, 14, 0.854);
+    }
+    50%{
+        border: 4px double rgb(255, 255, 255); 
+    }
+    70%{
+        border: 4px double rgba(68, 121, 48, 0.772); 
+    }
+    100%{
+        border: 4px double rgba(17, 79, 100, 0.976); 
+    }
+   
+}

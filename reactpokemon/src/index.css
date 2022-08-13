@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -8,9 +9,7 @@ body {
   background-color: rgba(248, 248, 248, 0.888);
   color: black;
 }
-link{
-  color: aliceblue;
-}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
