@@ -1,5 +1,5 @@
 import Images from './Images';
-import './Ivysaur.css'
+import './Wartortle.css'
  function Bulbasaur() {
     return (
       

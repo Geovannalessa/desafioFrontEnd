@@ -27,16 +27,28 @@
         border: 4px rgba(0, 0, 0, 0.807) double;
     }
     10%{
-        border: 4px  double rgba(170, 19, 19, 0.988);
+        border: 4px  double rgba(213, 27, 27, 0.988);
+    }
+    20%{
+        border: 4px  double rgba(213, 126, 27, 0.988);
     }
     30%{ 
-        border: 4px double rgba(96, 99, 14, 0.854);
+        border: 4px double rgba(180, 186, 1, 0.854);
+    }
+    40%{ 
+        border: 4px double rgba(179, 230, 11, 0.854);
     }
     50%{
         border: 4px double rgb(255, 255, 255); 
     }
+    60%{
+        border: 4px double rgba(120, 251, 72, 0.772); 
+    }
     70%{
-        border: 4px double rgba(68, 121, 48, 0.772); 
+        border: 4px double rgba(53, 240, 6, 0.82); 
+    }
+    80%{
+        border: 4px double rgba(6, 107, 240, 0.82); 
     }
     100%{
         border: 4px double rgba(17, 79, 100, 0.976); 

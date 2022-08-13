@@ -1,5 +1,5 @@
 import Images from './Images';
-import './Ivysaur.css'
+import './Blastoise.css'
  function Bulbasaur() {
     return (
       
