@@ -1,45 +1,43 @@
 import Images from './Images';
 import './Wartortle.css'
- function Bulbasaur() {
+ function Wartortle() {
     return (
       
-      <section className="habilidades">
+      <section className="habilidades8">
       <Images />
       <section className="titulo">
-        Bulbasaur
+      Wartortle
       </section>
-      <section className="quadrado-habilidades">
+      <section className="quadrado-habilidades8">
         <div>
-          grass
+          water
         </div>
-        <div>
-          grass
-        </div>
+        
       </section>
       <article className="powers">
         <table>
           <tr>
             hp
             <td>
-              <td className="hp"></td>
+              <td className="hp8"></td>
             </td>
           </tr>
           <tr>
             attack
             <td>
-              <td className="attack"></td>
+              <td className="attack8"></td>
             </td>
           </tr>
           <tr>
             defense
             <td>
-              <td className="defense"></td>
+              <td className="defense8"></td>
             </td>
           </tr>
           <tr>
             speed
             <td>
-              <td className="speed"></td>
+              <td className="speed8"></td>
             </td>
           </tr>
         </table>
@@ -47,6 +45,6 @@ import './Wartortle.css'
     </section>
     );
   }
-  export default Bulbasaur;
+  export default Wartortle;
   
   

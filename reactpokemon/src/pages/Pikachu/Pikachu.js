@@ -1,19 +1,15 @@
 import Images from './Images';
-import './Caterpie.css'
- function Bulbasaur() {
+import './Pikachu.css'
+ function Pikachu() {
     return (
-      
-      <section className="habilidades">
+      <section className="habilidades10">
       <Images />
       <section className="titulo">
-        Bulbasaur
+      Pikachu
       </section>
-      <section className="quadrado-habilidades">
+      <section className="quadrado-habilidades10">
         <div>
-          grass
-        </div>
-        <div>
-          grass
+          eletric
         </div>
       </section>
       <article className="powers">
@@ -21,25 +17,25 @@ import './Caterpie.css'
           <tr>
             hp
             <td>
-              <td className="hp"></td>
+              <td className="hp10"></td>
             </td>
           </tr>
           <tr>
             attack
             <td>
-              <td className="attack"></td>
+              <td className="attack10"></td>
             </td>
           </tr>
           <tr>
             defense
             <td>
-              <td className="defense"></td>
+              <td className="defense10"></td>
             </td>
           </tr>
           <tr>
             speed
             <td>
-              <td className="speed"></td>
+              <td className="speed10"></td>
             </td>
           </tr>
         </table>
@@ -47,6 +43,6 @@ import './Caterpie.css'
     </section>
     );
   }
-  export default Bulbasaur;
+  export default Pikachu;
   
   

@@ -1,45 +1,43 @@
 import Images from './Images';
 import './Blastoise.css'
- function Bulbasaur() {
+ function Blastoise() {
     return (
       
-      <section className="habilidades">
+      <section className="habilidades9">
       <Images />
       <section className="titulo">
-        Bulbasaur
+      Blastoise
       </section>
-      <section className="quadrado-habilidades">
+      <section className="quadrado-habilidades9">
         <div>
-          grass
+          water
         </div>
-        <div>
-          grass
-        </div>
+        
       </section>
       <article className="powers">
         <table>
           <tr>
             hp
             <td>
-              <td className="hp"></td>
+              <td className="hp9"></td>
             </td>
           </tr>
           <tr>
             attack
             <td>
-              <td className="attack"></td>
+              <td className="attack9"></td>
             </td>
           </tr>
           <tr>
             defense
             <td>
-              <td className="defense"></td>
+              <td className="defense9"></td>
             </td>
           </tr>
           <tr>
             speed
             <td>
-              <td className="speed"></td>
+              <td className="speed9"></td>
             </td>
           </tr>
         </table>
@@ -47,6 +45,6 @@ import './Blastoise.css'
     </section>
     );
   }
-  export default Bulbasaur;
+  export default Blastoise;
   
   

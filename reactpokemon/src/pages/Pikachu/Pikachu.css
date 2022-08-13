@@ -1,14 +1,14 @@
-.habilidades6{
-  background-color: rgba(252, 126, 15, 0.647);
+.habilidades10{
+  background-color: rgba(174, 199, 17, 0.351);
   border: 8px ridge rgba(33, 31, 31, 0.838);
   box-shadow: 1px 1px 5px 10px rgba(236, 181, 17, 0.451);
   width: 50%;
   text-align: center;
 }
 
-.habilidades6>.titulo {
+.habilidades10>.titulo {
   background-color: rgba(240, 248, 255, 0.303);
-  border-top: double 2px rgba(142, 89, 14, 0.673);
+  border-top: double 2px rgba(236, 236, 236, 0.673);
   font-family: 'Monofett', cursive;
   /* font-family: 'Press Start 2P', cursive; */
   color: rgba(255, 255, 255, 0.034);
@@ -19,13 +19,13 @@
   letter-spacing: 9px;
 }
 
-.quadrado-habilidades6{
+.quadrado-habilidades10{
   display: flex;
   justify-content: center;
 
 }
 
-.quadrado-habilidades6>div {
+.quadrado-habilidades10>div {
   border: 2px ridge rgba(60, 60, 60, 0.352);
   padding: 4px 9px;
   font-family: 'Inconsolata', monospace;
@@ -35,27 +35,27 @@
   background-color: rgba(127, 134, 130, 0.327)
 }
 
-.powers>table>tr>td>.hp6 {
-  width: 120px;
+.powers>table>tr>td>.hp10 {
+  width: 60px;
   height: 15px;
   background-color: rgba(0, 65, 206, 0.989);
 
 }
 
-.powers>table>tr>td>.attack6 {
-  width: 120px;
+.powers>table>tr>td>.attack10 {
+  width: 90px;
   height: 15px;
   background-color: rgb(224, 53, 53);
 }
 
-.powers>table>tr>td>.defense6 {
-  width: 120px;
+.powers>table>tr>td>.defense10 {
+  width: 60px;
   height: 15px;
   background-color: rgb(88, 199, 48);
 
 }
 
-.powers>table>tr>td>.speed6 {
+.powers>table>tr>td>.speed10 {
   width: 140px;
   height: 15px;
   background-color: rgb(255, 237, 43);

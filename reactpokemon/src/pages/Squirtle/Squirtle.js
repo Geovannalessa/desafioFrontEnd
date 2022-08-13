@@ -1,45 +1,43 @@
 import Images from './Images';
 import './Squirtle.css'
- function Bulbasaur() {
+ function Squirtle() {
     return (
       
-      <section className="habilidades">
+      <section className="habilidades7">
       <Images />
       <section className="titulo">
-        Bulbasaur
+        Squirtle
       </section>
-      <section className="quadrado-habilidades">
+      <section className="quadrado-habilidades7">
         <div>
-          grass
+          water
         </div>
-        <div>
-          grass
-        </div>
+        
       </section>
       <article className="powers">
         <table>
           <tr>
             hp
             <td>
-              <td className="hp"></td>
+              <td className="hp7"></td>
             </td>
           </tr>
           <tr>
             attack
             <td>
-              <td className="attack"></td>
+              <td className="attack7"></td>
             </td>
           </tr>
           <tr>
             defense
             <td>
-              <td className="defense"></td>
+              <td className="defense7"></td>
             </td>
           </tr>
           <tr>
             speed
             <td>
-              <td className="speed"></td>
+              <td className="speed7"></td>
             </td>
           </tr>
         </table>
@@ -47,6 +45,6 @@ import './Squirtle.css'
     </section>
     );
   }
-  export default Bulbasaur;
+  export default Squirtle;
   
   
