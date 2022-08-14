@@ -1,42 +1,43 @@
 import Images from './Images';
-import './Pikachu.css'
-import click from './click';
- function Pikachu() {
+import './Caterpie.css'
+ function Caterpie() {
     return (
-      <section className="habilidades10">
-      <Images />{click}
+      
+      <section className="habilidades11">
+      <Images />
       <section className="titulo">
-      Pikachu
+      Caterpie
       </section>
-      <section className="quadrado-habilidades10">
+      <section className="quadrado-habilidades11">
         <div>
-          eletric
+          water
         </div>
+        
       </section>
       <article className="powers">
         <table>
           <tr>
             hp
             <td>
-              <td className="hp10"></td>
+              <td className="hp11"></td>
             </td>
           </tr>
           <tr>
             attack
             <td>
-              <td className="attack10"></td>
+              <td className="attack11"></td>
             </td>
           </tr>
           <tr>
             defense
             <td>
-              <td className="defense10"></td>
+              <td className="defense11"></td>
             </td>
           </tr>
           <tr>
             speed
             <td>
-              <td className="speed10"></td>
+              <td className="speed11"></td>
             </td>
           </tr>
         </table>
@@ -44,6 +45,6 @@ import click from './click';
     </section>
     );
   }
-  export default Pikachu;
+  export default Caterpie;
   
   

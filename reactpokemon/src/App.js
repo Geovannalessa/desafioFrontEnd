@@ -13,13 +13,17 @@ import Squirtle from './pages/Squirtle/Squirtle';
 import Wartortle from './pages/Wartortle/Wartortle';
 import Blastoise from './pages/Blastoise/Blastoise';
 import Pikachu from './pages/Pikachu/Pikachu';
+import Next from './pages/Next/Next';
 
-
+<Routes>
+  <Route path='/next' element={<Next />}></Route>
+</Routes>
 function App() {
   return (
+
     <div className="App">
       <section className="catalogo">
-        <h2> 
+        <h2>
           <Link exact="true" to="/">POKEMONS</Link>
         </h2>
         <section>
@@ -64,8 +68,8 @@ function App() {
           </article>
 
           <section className="back_next">
-            <button>BACK</button>
-            <button className="next">NEXT</button>
+
+            <button className="next"><Link exact="true" to="/next">  Next </Link></button>
           </section>
 
         </section>

@@ -1,6 +1,5 @@
 .App {
-  background: radial-gradient(rgba(184, 253, 131, 0.499), rgba(255, 255, 255, 0.339));
-  margin: auto;
+  background: radial-gradient(rgba(93, 185, 24, 0.499), rgba(255, 255, 255, 0.602));  margin: auto;
   width: 1000px;
   display: flex;
   height: 650px;
@@ -83,14 +82,7 @@ a:-webkit-any-link {
   border: 2px rgba(255, 255, 255, 0.734) inset;
 }
 
-img {
-  margin-top: 20px;
-  padding: 20px 18px;
-  border: solid black 2px;
-  background-color: rgba(0, 0, 0, 0.447);
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
+
 
 .quadrado-habilidades {
   display: flex;
@@ -98,30 +90,3 @@ img {
 }
 
 
-.powers {
-  margin: 20px 20px;
-}
-
-.powers>table {
-  border-collapse: initial;
-}
-
-.powers>table>tr {
-  font-family: 'Inconsolata', monospace;
-  font-weight: bold;
-  padding-bottom: 30px;
-  border-bottom: 12px transparent solid;
-  /* border-spacing:0px 40px; */
-}
-
-.powers>table>tr>td {
-  width: 460px;
-  border: 1px rgba(0, 0, 0, 0.736) solid;
-  background-color: rgba(27, 26, 27, 0.216);
-
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Londrina+Shadow&family=Raleway+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Raleway+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
