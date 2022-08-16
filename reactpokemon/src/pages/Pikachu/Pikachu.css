@@ -60,3 +60,7 @@
   height: 15px;
   background-color: rgb(255, 237, 43);
 }
+.pikachu{
+  cursor:auto;
+  background-color: rgba(0, 0, 0, 0.342);
+}

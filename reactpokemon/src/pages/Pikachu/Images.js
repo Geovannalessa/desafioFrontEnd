@@ -1,7 +1,7 @@
 const Images = () => {
     return(
         <div>
-            <img src="/pikachu.png" />
+            <img className="pikachu" src="/pikachu.png" />
         </div>
     )
 }

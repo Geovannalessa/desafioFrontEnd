@@ -5,11 +5,11 @@
   width: 50%;
   text-align: center;
 }
+
 .habilidades2>.titulo {
   background-color: rgba(240, 248, 255, 0.204);
   border-top: double 2px rgba(177, 204, 71, 0.673);
   font-family: 'Monofett', cursive;
-  /* font-family: 'Press Start 2P', cursive; */
   color: rgba(255, 255, 255, 0.034);
   font-size: 39px;
   -webkit-text-stroke-width: 1px;
@@ -17,11 +17,10 @@
   padding-bottom: 6px;
   letter-spacing: 9px;
 }
+
 .quadrado-habilidades2 {
   display: flex;
   justify-content: center;
-  
-
 }
 
 .quadrado-habilidades2>div {
@@ -33,29 +32,19 @@
   color: rgba(0, 0, 0, 0.838);
   background-color: rgba(107, 140, 122, 0.496)
 }
-  .powers>table>tr>td>.hp2{
-    width: 90px;
-    height: 15px;
-    background-color: rgba(0, 65, 206, 0.989);
-  
-  }
-  
-  .powers>table>tr>td>.attack2 {
-    width: 90px;
-    height: 15px;
-    background-color: rgb(224, 53, 53);
-  }
-  
-  .powers>table>tr>td>.defense2 {
-    width: 90px;
-    height: 15px;
-    background-color: rgb(88, 199, 48);
-  
-  }
-  
-  .powers>table>tr>td>.speed2 {
-    width: 90px;
-    height: 15px;
-    background-color: rgb(255, 237, 43);
-  }
- 
+.powers>table>tr>td>* {
+  width: 90px;
+  height: 15px;
+}
+.powers>table>tr>td>.hp2 {
+  background-color: rgba(0, 65, 206, 0.989);
+}
+.powers>table>tr>td>.attack2 {
+  background-color: rgb(224, 53, 53);
+}
+.powers>table>tr>td>.defense2 {
+  background-color: rgb(88, 199, 48);
+}
+.powers>table>tr>td>.speed2 {
+  background-color: rgb(255, 237, 43);
+}

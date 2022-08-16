@@ -1,17 +1,19 @@
 import './Next.css'
+
 import { Routes, Route, Link } from 'react-router-dom';
 
-import Home from '../Home/Home'
-import Caterpie from '../Caterpie/Caterpie'
+import Home from '../Home/Home';
+import Caterpie from '../Caterpie/Caterpie';
+
 function Next() {
     return (
-        <div className="AppN">
-            <section className="catalogoN">
+        <div className="App">
+            <section className="catalogo">
                 <h2>
                     <Link exact="true" to="/">POKEMONS</Link>
                 </h2>
                 <section>
-                    <article className="nomesN" >
+                    <article className="nomes" >
                         <Link exact="true" to="/caterpie">Caterpie</Link>
                     </article>
 
@@ -51,7 +53,7 @@ function Next() {
                         {/* <Link exact="true" to="/pikachu">Pikachu</Link> */}
                     </article>
 
-                    <section className="back_nextN">
+                    <section className="back_next">
                         <button>BACK</button>
                         <button className="next">NEXT</button>
                     </section>

@@ -15,10 +15,10 @@ import Blastoise from './pages/Blastoise/Blastoise';
 import Pikachu from './pages/Pikachu/Pikachu';
 import Next from './pages/Next/Next';
 
-<Routes>
-  <Route path='/next' element={<Next />}></Route>
-</Routes>
 function App() {
+<Routes>
+        <Route path='/next' element={<Next />}></Route>
+      </Routes>
   return (
 
     <div className="App">
@@ -69,7 +69,11 @@ function App() {
 
           <section className="back_next">
 
-            <button className="next"><Link exact="true" to="/next">  Next </Link></button>
+            <button className="next">
+            <a href='http://localhost:3000/next'>
+                NEXT
+            </a>
+            </button>
           </section>
 
         </section>
@@ -87,7 +91,6 @@ function App() {
         <Route path='/blastoise' element={<Blastoise />}></Route>
         <Route path='/pikachu' element={<Pikachu />}></Route>
       </Routes>
-
     </div>
 
   );

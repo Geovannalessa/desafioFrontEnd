@@ -1,12 +1,12 @@
 import Images from './Images';
 import './Pikachu.css'
-import click from './click';
- function Pikachu() {
-    return (
-      <section className="habilidades10">
-      <Images />{click}
+
+function Pikachu() {
+  return (
+    <section className="habilidades10">
+      <a className='imagem' href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg"><Images /></a>
       <section className="titulo">
-      Pikachu
+        Pikachu
       </section>
       <section className="quadrado-habilidades10">
         <div>
@@ -42,8 +42,7 @@ import click from './click';
         </table>
       </article>
     </section>
-    );
-  }
-  export default Pikachu;
-  
-  
+  );
+}
+export default Pikachu;
+
