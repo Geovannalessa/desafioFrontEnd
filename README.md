@@ -1,5 +1,5 @@
 # Catalágo de Pokemons
-Primeiro contato e projeto usando react!
+Primeiro contato e projeto usando React!
 
 ![pokemon-imagem](https://user-images.githubusercontent.com/91286117/222188032-525d8419-7d05-4e8d-9c46-24363ca25294.png)
 
